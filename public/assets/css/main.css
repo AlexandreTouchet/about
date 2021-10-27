@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intitule {
+    text-align: center;
+    font-weight: bold;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
