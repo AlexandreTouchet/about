@@ -8,7 +8,7 @@
   },
   "name": "cv-react",
   "version": "1.0.0",
-  "homepage": "https://AlexandreTouchet.github.io/about",
+  "homepage": "https://alexandreTouchet.github.io/about",
   "scripts": {
     "start": "parcel public/index.html --open",
     "deploy": "gh-pages -d dist"
