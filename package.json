@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "homepage": "https://alexandreTouchet.github.io/about",
   "scripts": {
-    "bluid": "rm -rf dist && parcel public/index.html --public-url ./",
+    "build": "rm -r dist && parcel build public/index.html --public-url ./",
     "pub": "gh-pages -d dist"
   },
   "keywords": [],
