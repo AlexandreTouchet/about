@@ -4,7 +4,16 @@
     box-sizing: border-box;
 }
 
-.intitule {
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.intituler {
     text-align: center;
     font-weight: bold;
 }
@@ -12,11 +21,51 @@
 .information {
     display: flex;
     flex-direction: column;
-    background-color: blue;
-    height: 100vh;
+    background-color: #e5e5e5;
+    height: 100%;
+    padding: 5px 5px;
+    border-top-right-radius: 40px 30px;
+}
+
+.sous-main {
+    display: flex;
+    flex-direction: column;
 }
 
 .main {
     display: flex;
-    flex-direction: column;
+}
+
+.comp {
+    /* background-color: yellow; */
+    padding-left: 10px;
+}
+
+.ex-p {
+    /* background-color: red; */
+    padding-left: 10px;
+}
+
+.desc-ex-p {
+    margin-left: 15px;
+}
+
+.formation {
+    /* background-color: green; */
+    padding-left: 10px;
+}
+
+.space-20 {
+    margin: 20px;
+    display: block;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
