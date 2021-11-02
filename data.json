@@ -1,0 +1,32 @@
+{
+    "INFO_PERSO": 
+        {
+            "NOM": "TOUCHET",
+            "PRENOM": "Alexandre",
+            "AGE": 21,
+            "TELEPHONE": "06 20 65 33 63",
+            "ADRESSE": {
+        
+            },
+            "EMAIL": "Alexandre.pro3525@gmail.com",
+            "QUALITES": ["Curieux", "Sérieux", "Calme"],
+            "LANGUE": [
+                {"titre": "Français", "niveau": "Bon"},
+                {"titre": "Anglais", "niveau": "Correct"}
+            ],
+            "LOISIRS": ["Manga, Animé","Jeux vidéo", "Nouvelle technologie", "Espace"]
+        },
+    "POSTE": "STRING",
+    "EX_PRO": [
+        {"titre": "Inhalio", "Année": "mars 2021 - mai 2021", "desc": "Développer un système de template d'email automatique."},
+        {"titre": "papilhorig", "Année": "mars 2019 - mai 2019", "desc": "Concevoir un site e-commerce de noued papillion sous Sylius."},
+        {"titre": "Micro-contact", "Année": "octobre 2016 - novembre 2016", "desc": "Maintenance et dépannage informatique."}
+    ],
+    "EX_PERSO": [],
+    "COMPETENCES": [],
+    "FORMATION": [
+        {"titre": "BTS", "Année": 2020, "desc": "Développeur web et web mobile (fullstack)"},
+        {"titre": "BAC PRO SEN AVM", "Année": 2018, "desc": "Système Electronique Numérique option Audio Visuel Multimédia"},
+        {"titre": "BEP SEN", "Année": 2017, "desc": "Système Electronique Numérique"}
+    ]
+}

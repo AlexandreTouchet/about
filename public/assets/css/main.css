@@ -8,6 +8,10 @@ body {
     background-color: #fafafa;
 }
 
+.row {
+    margin-right: 0;
+}
+
 .container {
     margin: 0;
     padding: 0;
@@ -50,9 +54,25 @@ body {
     margin-left: 15px;
 }
 
+.comp-desc {
+    list-style: none;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .formation {
     /* background-color: green; */
     padding-left: 10px;
+}
+
+.progress-ul {
+    display: flex;
+    flex-direction: row;
 }
 
 .space-20 {
@@ -68,4 +88,13 @@ a:hover {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
+}
+
+.space-200 {
+    margin: 200px;
+    display: block;
+}
+
+.m-15 {
+    margin: 15px 15px;
 }
