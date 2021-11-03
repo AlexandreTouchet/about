@@ -19,11 +19,6 @@ const App = () => {
         <h2>Développeur web et web mobile</h2>
         </div>
             <div className="row">
-
-
-
-
-
                 <div className="main col-9">
                     <div className="information col-4">
                         <MenuL 

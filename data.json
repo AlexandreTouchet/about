@@ -19,7 +19,7 @@
     "POSTE": "STRING",
     "EX_PRO": [
         {"titre": "Inhalio", "Année": "mars 2021 - mai 2021", "desc": "Développer un système de template d'email automatique."},
-        {"titre": "papilhorig", "Année": "mars 2019 - mai 2019", "desc": "Concevoir un site e-commerce de noued papillion sous Sylius."},
+        {"titre": "papilhorig", "Année": "mars 2019 - mai 2019", "desc": "Concevoir un site e-commerce de nœud papillon sous Sylius."},
         {"titre": "Micro-contact", "Année": "octobre 2016 - novembre 2016", "desc": "Maintenance et dépannage informatique."}
     ],
     "EX_PERSO": [],
