@@ -98,3 +98,31 @@ a:hover {
 .m-15 {
     margin: 15px 15px;
 }
+
+@media screen and (max-width: 900px) {
+    .main {
+        display:initial;
+    }
+
+    .information {
+        height: initial;
+        border-top-right-radius: initial;
+    }
+
+    .col-9,
+    .col-4 {
+        width: 100%;
+    }
+
+    .row>* {
+        padding-right: 0;
+    }
+    
+    .mobile-center {
+        text-align: center;
+    }
+
+    li {
+        list-style: none;
+    }
+}
