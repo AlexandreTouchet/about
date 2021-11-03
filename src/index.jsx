@@ -27,7 +27,7 @@ const App = () => {
                     <div className="space-200" style={{display: screen >= 600 ? 'block': 'none'}}></div>
                     <div className="sous-main col-12">
                         <hr />
-                        <h3 className="comp">Compétence</h3>
+                        <h3 className="comp">Compétences</h3>
                         <ul className="progress-ul">
                             <Competence />   
                         </ul>
@@ -37,7 +37,7 @@ const App = () => {
                                 exp={data.EX_PRO}
                             />
                         <hr />
-                        <h3 className="formation">Formation</h3>
+                        <h3 className="formation">Formations</h3>
                             <Formation 
                                 formations={data.FORMATION}
                             />
